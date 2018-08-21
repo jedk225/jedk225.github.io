@@ -1,0 +1,110 @@
+#main-jumbotron {
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(102, 102, 102);
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.main-body {
+    width: 80%;
+    line-height: 1.5;
+    color: rgb(102, 102, 102);
+}
+
+.main-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+a {
+    color: rgb(146, 146, 146);
+
+}
+
+.d-block {
+    border: solid 1px #dcdcdc;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+#portfolio {
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+    width: 100%;
+}
+
+#about-me {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    min-height: 100vh;
+    width: 100%;
+}
+
+#about-div {
+    width: 75%;
+    font-size: 20px;
+}
+
+#contact-me {
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    min-height: 100vh;
+    width: 100%;
+}
+
+#contact-div {
+    width: 50%;
+}
+
+#bio-image {
+    max-height: 256px;
+    max-width: 239px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 28px;
+}
+
+
+.card-img-top {
+    border-radius: 20px;
+
+}
+
+.btn-secondary {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#see-more{
+    margin-top: 20px;
+}
+
+#see-less {
+    margin-bottom: 20px;
+
+}
