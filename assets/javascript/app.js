@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    // These buttons scrolls to the corresponding point of the page
     $("#home-BTN").click(function (event) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $("#main-jumbotron").offset().top }, 1000);
@@ -24,18 +25,22 @@ $(document).ready(function () {
 
     })
 
+    //Hides the all-projects div upon loading
     $("#all-projects").hide();
 
+    // Reveals the all-projects div
     $("#see-more").click(function () {
         $("#all-projects").slideDown(1000);
 
     })
 
+    // Hides all-projects div upon click
     $("#see-less").click(function () {
         $("#all-projects").slideUp(1000);
 
     })
 
+    //firebase initialization
     var config = {
         apiKey: "AIzaSyAgNw0MvXs7RM2H04fHflM84JCheWXSX8U",
         authDomain: "portfolio-c7b97.firebaseapp.com",
