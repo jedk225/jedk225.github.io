@@ -51,6 +51,7 @@ a {
 #about-div {
     width: 75%;
     font-size: 20px;
+    text-align: center;
 }
 
 #contact-me {
@@ -69,8 +70,7 @@ a {
     max-height: 256px;
     max-width: 239px;
     border-radius: 20px;
-    float: left;
-    margin-right: 20px;
+    margin-bottom: 40px;
 }
 
 .nav-item {
