@@ -65,7 +65,7 @@ a {
 }
 
 #contact-div {
-    width: 50%;
+    width: 70%;
 }
 
 #bio-image {
@@ -96,6 +96,9 @@ a {
     text-align: center;
 }
 
+#contact-card-select {
+    margin: 0 auto;
+}
 
 .card-img-top {
     border-radius: 20px;
