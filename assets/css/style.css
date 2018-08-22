@@ -92,6 +92,10 @@ a {
     font-size: 28px;
 }
 
+#contact-card {
+    text-align: center;
+}
+
 
 .card-img-top {
     border-radius: 20px;
